@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+    /* Primary colors */
+    --color-page-background: #F0FAFB;
+    --color-primary-01: #EDF6F4;
+    --color-primary-02: #5BA1A1;
+    --color-primary-03: #2D3B3B;
+}
+
+@layer base {
+    :root {
+        @apply bg-[var(--color-page-background)];
+    }
+
+    header {
+        @apply min-h-40;
+        @apply bg-[var(--color-primary-02)] md:bg-repeat-x bg-cover bg-[url(../../images/bg-header-mobile.svg)] md:bg-[url(../../images/bg-header-desktop.svg)];
+    }
+}
