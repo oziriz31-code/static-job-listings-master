@@ -37,7 +37,7 @@ function JobListing({ job, addFilter }: JobListingProps) {
       {/* Mobile Image */}
       <div className="md:hidden absolute -top-8 left-6 w-16 h-16 flex items-center justify-center">
         <img
-          src={`../.${job.logo}`}
+          src={`.${job.logo}`}
           alt={job.company}
           className="w-full h-full object-contain"
         />
@@ -46,7 +46,7 @@ function JobListing({ job, addFilter }: JobListingProps) {
       {/* Desktop Image and Job Info */}
       <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
         <img
-          src={`../.${job.logo}`}
+          src={`.${job.logo}`}
           alt={job.company}
           className="hidden md:block w-20 h-20 object-contain"
         />
