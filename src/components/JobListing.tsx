@@ -34,7 +34,7 @@ function JobListing({job, addFilter}: JobListingProps) {
 
     return (
         <div
-            className="relative flex flex-col md:flex-row justify-between items-center gap-4 bg-white border-l-4 border-primary-02 px-5 md:px-8 py-6 rounded-md shadow-lg">
+            className={`relative flex flex-col md:flex-row justify-between items-center gap-4 bg-white ${job.featured ? 'border-l-4 border-primary-02':''} px-5 md:px-8 py-6 rounded-md shadow-lg`}>
             {/* Mobile Image */}
             <div className="md:hidden absolute -top-8 left-6 w-16 h-16 flex items-center justify-center">
                 <img
