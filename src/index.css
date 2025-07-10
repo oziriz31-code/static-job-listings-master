@@ -15,6 +15,6 @@
 
     header {
         @apply min-h-40;
-        @apply bg-[var(--color-primary-02)] md:bg-repeat-x bg-cover bg-[url(../../images/bg-header-mobile.svg)] md:bg-[url(../../images/bg-header-desktop.svg)];
+        @apply bg-[var(--color-primary-02)] md:bg-repeat-x bg-cover bg-[url(../public/assets/images/bg-header-mobile.svg)] md:bg-[url(../public/assets/images/bg-header-desktop.svg)];
     }
 }
