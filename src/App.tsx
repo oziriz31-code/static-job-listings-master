@@ -42,10 +42,10 @@ function App() {
                             <ul className="flex items-center gap-4 flex-wrap">
                                 {filters.map((filter) => (
                                     <li key={filter} className="flex">
-                    <span
-                        className="bg-primary-01 text-sm text-primary-02 font-bold px-3 py-2 rounded-tl-md rounded-bl-md flex items-center">
-                      {filter}
-                    </span>
+                                        <h1
+                                            className="bg-primary-01 text-sm text-primary-02 font-bold px-3 py-2 rounded-tl-md rounded-bl-md flex items-center">
+                                          {filter}
+                                        </h1>
                                         <button
                                             type="button"
                                             onClick={() => removeFilter(filter)}
